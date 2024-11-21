@@ -1,19 +1,21 @@
+import { link } from "fs";
+
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
+  
   { name: "Contact", link: "#contact" },
 ];
 
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
+    title: "I'm currently doing 3rd year in Bsc Computer Science (hons) AI",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
-    titleClassName: "justify-end",
-    img: "/b1.svg",
+    titleClassName: "justify-end ",
+    img: "uni68.svg",
     spareImg: "",
   },
   {
@@ -49,12 +51,12 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
-    description: "The Inside Scoop",
+    title: "Building an AI based website to summarize the Youtube video.",
+    description: "Final Year Project",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
-    img: "/b5.svg",
+    img: "chip80.svg",
     spareImg: "/grid.svg",
   },
   {
@@ -70,37 +72,38 @@ export const gridItems = [
 ];
 
 export const projects = [
+
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
-  },
+    title: "Netflix Model",
+    des: "Re-Createded Nextflix model using flutter Dart.",
+    img: "Group 1.svg",
+    iconLists: [ "dart nobg.svg"],
+    link: "https://github.com/Sabarinadh2002/netflixModelCode",
+  }, 
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    title: "Calculator",
+    des: "Developed a calulator using Java",
+    img: "sampleCalImg.svg",
+    iconLists: [ "/nobgjava.svg"],
+    link: "https://github.com/Sabarinadh2002/SampleCalculator",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    title: "Flappy Bird Game",
+    des: "Developed a Flappy Bird game in python using pygame libraries",
+    img: "FlappyBirdimg.svg",
+    iconLists: ["python-removebg.svg"],
+    link: "https://github.com/Sabarinadh2002/FlappyBird",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    title: "You-Tube video summarizing AI",
+    des: "Developing an AI based website to summarize the youtube video for Fyp.",
+    img: "comingProject.svg",
+    iconLists: ["/re.svg", "/ts.svg", "python-removebg.svg", "HuggingFace-removebg.svg"],
+    link: "https://github.com/Sabarinadh2002/Youtube_video_summarizer",
   },
 ];
 
@@ -205,6 +208,7 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/Sabarinadh2002"
   },
   {
     id: 2,
