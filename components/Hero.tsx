@@ -8,8 +8,8 @@ const Hero = () => {
 
   const handleDownloadVC = () => {
     const link = document.createElement("a");
-    link.href = "Sabarinadh's Resume.pdf";
-    link.download = "Sabarinadh's Resume.pdf";
+    link.href = "Resume.2024.pdf";
+    link.download = "Resume.2024.pdf";
     link.click();
   };
   return (
@@ -64,7 +64,7 @@ const Hero = () => {
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi! I&apos;m Sabari, computer science student based in United Kingdom.
+            Hi! I&apos;m Sabari, computer science student specialized in AI, based in United Kingdom.
           </p>
 
         

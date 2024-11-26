@@ -20,7 +20,7 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "I'm very flexible with time zone communications",
+    title: "I'm open to opportunities across the UK",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -73,8 +73,17 @@ export const gridItems = [
 
 export const projects = [
 
+
   {
     id: 1,
+    title: "You-Tube video summarizing AI",
+    des: "Developing an AI based website to summarize the youtube video for Fyp.",
+    img: "comingProject.svg",
+    iconLists: ["/re.svg", "/ts.svg", "python-removebg.svg", "HuggingFace-removebg.svg"],
+    link: "https://github.com/Sabarinadh2002/Youtube_video_summarizer",
+  },
+  {
+    id: 2,
     title: "Netflix Model",
     des: "Re-Createded Nextflix model using flutter Dart.",
     img: "Group 1.svg",
@@ -82,7 +91,7 @@ export const projects = [
     link: "https://github.com/Sabarinadh2002/netflixModelCode",
   }, 
   {
-    id: 2,
+    id: 3,
     title: "Calculator",
     des: "Developed a calulator using Java",
     img: "sampleCalImg.svg",
@@ -90,21 +99,14 @@ export const projects = [
     link: "https://github.com/Sabarinadh2002/SampleCalculator",
   },
   {
-    id: 3,
+    id: 4,
     title: "Flappy Bird Game",
     des: "Developed a Flappy Bird game in python using pygame libraries",
     img: "FlappyBirdimg.svg",
     iconLists: ["python-removebg.svg"],
     link: "https://github.com/Sabarinadh2002/FlappyBird",
   },
-  {
-    id: 4,
-    title: "You-Tube video summarizing AI",
-    des: "Developing an AI based website to summarize the youtube video for Fyp.",
-    img: "comingProject.svg",
-    iconLists: ["/re.svg", "/ts.svg", "python-removebg.svg", "HuggingFace-removebg.svg"],
-    link: "https://github.com/Sabarinadh2002/Youtube_video_summarizer",
-  },
+  
 ];
 
 export const testimonials = [
