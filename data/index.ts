@@ -212,12 +212,10 @@ export const socialMedia = [
     img: "/git.svg",
     link: "https://github.com/Sabarinadh2002"
   },
+  
   {
     id: 2,
-    img: "/twit.svg",
-  },
-  {
-    id: 3,
     img: "/link.svg",
+    link: "https://www.linkedin.com/in/sabarinadh-prasanthan/"
   },
 ];
